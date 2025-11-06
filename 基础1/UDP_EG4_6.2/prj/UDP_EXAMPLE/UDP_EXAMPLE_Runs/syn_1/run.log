@@ -1,0 +1,344 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/td/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     gygdg
+   Run Date =   Fri Sep 26 18:43:10 2025
+
+   Run on =     DESKTOP-9O4TCGO
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project UDP_EXAMPLE.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v
+HDL-1007 : analyze verilog file ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: column 1032 exceeds maximum value 1023 in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(30)
+HDL-1007 : back to file '../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(86)
+HDL-5007 WARNING: event expressions must result in a singular type in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3001)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5050)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5458)
+HDL-5007 WARNING: column 1035 exceeds maximum value 1023 in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6001)
+HDL-1007 : back to file '../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v' in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(260)
+HDL-1007 : analyze verilog file ../../al_ip/TEMAC_CORE/TEMAC_CORE.v
+HDL-1007 : analyze verilog file ../../al_ip/pll_gen.v
+HDL-1007 : undeclared symbol 'pll_gen_open0', assumed default net type 'wire' in ../../al_ip/pll_gen.v(99)
+HDL-1007 : undeclared symbol 'pll_gen_open8', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open7', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open6', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open5', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open4', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open3', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open2', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : undeclared symbol 'pll_gen_open1', assumed default net type 'wire' in ../../al_ip/pll_gen.v(105)
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/clk_gen_rst_gen.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/div_clk_gen.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/IDDR.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/ODDR.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/RAMB16_S9_S9.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../../source_code/rtl/RAMB16_S9_S9.v(109)
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/rgmii_interface.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/rx_client_fifo.v
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(49)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(50)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(51)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(52)
+HDL-5370 WARNING: parameter 'QUEUE_SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'SOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'DATA_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'EOF_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(62)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'rx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/rx_client_fifo.v(63)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/temac_block.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/temac_clk_gen.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/tx_client_fifo.v
+HDL-5370 WARNING: parameter 'IDLE_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(53)
+HDL-5370 WARNING: parameter 'QUEUE1_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(54)
+HDL-5370 WARNING: parameter 'QUEUE2_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(55)
+HDL-5370 WARNING: parameter 'QUEUE3_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(56)
+HDL-5370 WARNING: parameter 'QUEUE_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(57)
+HDL-5370 WARNING: parameter 'WAIT_ACK_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(58)
+HDL-5370 WARNING: parameter 'FRAME_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(59)
+HDL-5370 WARNING: parameter 'DROP_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(60)
+HDL-5370 WARNING: parameter 'RETRANSMIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(61)
+HDL-5370 WARNING: parameter 'WAIT_s' becomes localparam in 'tx_client_fifo' with formal parameter declaration list in ../../../../source_code/rtl/tx_client_fifo.v(67)
+HDL-5370 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/tx_clk_en_gen.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/udp_data_tpg.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/UDP_Example_Top.v
+HDL-1007 : undeclared symbol 'phy_reset', assumed default net type 'wire' in ../../../../source_code/rtl/UDP_Example_Top.v(166)
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v
+HDL-1007 : back to file '../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(56)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2638)
+HDL-1007 : back to file '../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(420)
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/udp_loopback.v
+HDL-1007 : analyze verilog file ../../../../source_code/rtl/led.v
+PRJ-1401 : Successfully analyzed 20 source files.
+RUN-1002 : start command "set_param gate map_opt_area high"
+RUN-1002 : start command "set_param gate mapmacro_opt_timing high"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top UDP_Example_Top"
+HDL-1007 : port 'led' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(573)
+HDL-1007 : port 'tri_speed' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(687)
+HDL-1007 : port 'mdio_o' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(687)
+HDL-1007 : port 'mdio_oen' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(687)
+HDL-1007 : port 'mdio_clk' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(687)
+HDL-1007 : elaborate module UDP_Example_Top in ../../../../source_code/rtl/UDP_Example_Top.v(47)
+HDL-1007 : elaborate module clk_gen_rst_gen in ../../../../source_code/rtl/clk_gen_rst_gen.v(31)
+HDL-1007 : elaborate module pll_gen in ../../al_ip/pll_gen.v(26)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:\td\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,FBCLK_DIV=5,CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=80,CLKC3_DIV=40,CLKC4_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=79,CLKC3_CPHASE=39,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\td\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module div_clk_gen in ../../../../source_code/rtl/div_clk_gen.v(31)
+HDL-1007 : elaborate module led in ../../../../source_code/rtl/led.v(1)
+HDL-1007 : elaborate module udp_data_tpg in ../../../../source_code/rtl/udp_data_tpg.v(1)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../../../source_code/rtl/udp_loopback.v(64)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../../../source_code/rtl/udp_loopback.v(64)
+HDL-1007 : elaborate module udp_loopback in ../../../../source_code/rtl/udp_loopback.v(23)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2405)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2482)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=12,ADDR_WIDTH_B=12,DATA_DEPTH_A=4096,DATA_DEPTH_B=4096,MODE="PDPW",RESETMODE="ASYNC") in D:\td\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2666)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2671)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3068)
+HDL-5007 WARNING: actual bit length 12 differs from formal bit length 13 for port 'rdusedw' in ../../../../source_code/rtl/udp_loopback.v(85)
+HDL-1007 : elaborate module udp_ip_protocol_stack(LOCAL_UDP_PORT_NUM=16'b010,LOCAL_IP_ADDRESS=32'b11000000101010001111000000000010,LOCAL_MAC_ADDRESS=48'b010010001101000101011001111000100110101100) in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3861)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(4077)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3963)
+HDL-1007 : port '**' remains unconnected for this instance in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : port '**' remains unconnected for this instance in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1251)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1172)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2405)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2482)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_A=8,DATA_WIDTH_B=8,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,MODE="PDPW",RESETMODE="ASYNC") in D:\td\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2666)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(2671)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3068)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1601)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(909)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1374)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1079)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(713)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(26)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(436)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(223)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(1920)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3190)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3113)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3537)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module ** in ../../../../source_code/rtl/udp_ip_protocol_stack_merge.enc.v(3465)
+HDL-1007 : elaborate module temac_block in ../../../../source_code/rtl/temac_block.v(2)
+HDL-1007 : elaborate module tx_clk_en_gen in ../../../../source_code/rtl/tx_clk_en_gen.v(16)
+HDL-1007 : elaborate module rgmii_interface in ../../../../source_code/rtl/rgmii_interface.v(14)
+HDL-1007 : elaborate module ODDR in ../../../../source_code/rtl/ODDR.v(23)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:\td\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module IDDR(DEVICE="EG4") in ../../../../source_code/rtl/IDDR.v(23)
+HDL-1007 : elaborate module EG_LOGIC_IDDR in D:\td\arch/eagle_macro.v(57)
+HDL-1007 : elaborate module TEMAC_CORE in ../../al_ip/TEMAC_CORE/TEMAC_CORE.v(9)
+HDL-1007 : elaborate module mac_core_aead6cd6dadd(P_HOST_EN=1'b0,P_ADD_FILT_LIST=0) in ../../al_ip/TEMAC_CORE/RTL/mac_core_aead6cd6dadd.v(14)
+HDL-1007 : elaborate module TEMAC_CORE_aead6cd6dadd(P_HALF_DUPLEX=1'b1) in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(1)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9306)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(186)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(5470)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6852)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(7513)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3818)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3754)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3865)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3808)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3829)
+HDL-5007 WARNING: specify block is ignored for synthesis in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3840)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(7839)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(1251)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8904)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6199)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4813)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3988)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(225)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(3844)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4444)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6947)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(6270)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8504)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(8272)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4209)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4055)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(253)
+HDL-1007 : elaborate module ** in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(4147)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(353)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9517)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9520)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9525)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9526)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9527)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/TEMAC_CORE/RTL/TEMAC_CORE_aead6cd6dadd.v(9528)
+HDL-5007 WARNING: actual bit length 20 differs from formal bit length 85 for port 'mac_cfg_vector' in ../../../../source_code/rtl/temac_block.v(360)
+HDL-5323 WARNING: input port 'mac_has_sgmii' remains unconnected for this instance in ../../../../source_code/rtl/temac_block.v(294)
+HDL-1007 : elaborate module udp_clk_gen in ../../../../source_code/rtl/temac_clk_gen.v(30)
+HDL-1007 : elaborate module tx_client_fifo(DEVICE="EG4") in ../../../../source_code/rtl/tx_client_fifo.v(14)
+HDL-1007 : elaborate module RAMB16_S9_S9(DEVICE="EG4") in ../../../../source_code/rtl/RAMB16_S9_S9.v(4)
+HDL-1007 : elaborate module EG_LOGIC_BRAM(DATA_WIDTH_B=9,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_A="WRITETHROUGH",WRITEMODE_B="WRITETHROUGH") in D:\td\arch/eagle_macro.v(986)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../../../source_code/rtl/tx_client_fifo.v(1293)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../../../source_code/rtl/tx_client_fifo.v(1303)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../../../source_code/rtl/tx_client_fifo.v(1315)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../../../source_code/rtl/tx_client_fifo.v(1325)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../../../source_code/rtl/tx_client_fifo.v(1291)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../../../source_code/rtl/tx_client_fifo.v(1312)
+HDL-1007 : elaborate module rx_client_fifo(DEVICE="EG4") in ../../../../source_code/rtl/rx_client_fifo.v(14)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../../../source_code/rtl/rx_client_fifo.v(873)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../../../source_code/rtl/rx_client_fifo.v(883)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'cea' in ../../../../source_code/rtl/rx_client_fifo.v(894)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'web' in ../../../../source_code/rtl/rx_client_fifo.v(904)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../../../source_code/rtl/rx_client_fifo.v(871)
+HDL-5323 WARNING: input port 'dib[8]' remains unconnected for this instance in ../../../../source_code/rtl/rx_client_fifo.v(892)
+HDL-5323 WARNING: input port 'mdio_i' remains unconnected for this instance in ../../../../source_code/rtl/UDP_Example_Top.v(689)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is UDP_Example_Top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc ../../../../source_code/constraints/UDP.adc"
+RUN-1002 : start command "set_pin_assignment  clk_50   LOCATION = R7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  debug_out   LOCATION = virtualIO; "
+RUN-1002 : start command "set_pin_assignment  dled[0]   LOCATION = C15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[10]   LOCATION = E12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[11]   LOCATION = E10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[12]   LOCATION = C13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[13]   LOCATION = F10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[14]   LOCATION = E11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[15]   LOCATION = D11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[1]   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[2]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[3]   LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[4]   LOCATION = B5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[5]   LOCATION = A8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[6]   LOCATION = A7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[7]   LOCATION = A6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[8]   LOCATION = F16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  dled[9]   LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key1   LOCATION = B2; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  key2   LOCATION = B1; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[0]   LOCATION = B12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[1]   LOCATION = C10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[2]   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  led_data[3]   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_clk   LOCATION = T14; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; INDEL = 1; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_ctl   LOCATION = T13; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[0]   LOCATION = P6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[1]   LOCATION = M6; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[2]   LOCATION = T9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_rx_data[3]   LOCATION = N9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_clk   LOCATION = T12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_ctl   LOCATION = T7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[0]   LOCATION = T4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[1]   LOCATION = T6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[2]   LOCATION = M7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1002 : start command "set_pin_assignment  phy1_rgmii_tx_data[3]   LOCATION = T8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; SLEWRATE = FAST; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1001 : Starting of IO vref setups legality check.
+RUN-1002 : start command "read_sdc ../../../../source_code/constraints/UDP.sdc"
+RUN-1002 : start command "read_sdc -ip TEMAC_CORE ../../al_ip/TEMAC_CORE/TEMAC_CORE.sdc"
+RUN-1002 : start command "export_db UDP_EXAMPLE_elaborate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step rtl"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1002 : start command "set_param rtl min_ripple_len 12"
+RUN-1001 : Print Rtl Property
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :         Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :        fix_undriven       |     0      |        0         |        
+RUN-1001 :   gated_clock_conversion  |    off     |       off        |        
+RUN-1001 :         infer_fsm         |    auto    |       auto       |        
+RUN-1001 :         infer_gsr         |    off     |       off        |        
+RUN-1001 :         infer_rom         |     on     |        on        |        
+RUN-1001 :       keep_hierarchy      |    auto    |       auto       |        
+RUN-1001 :        merge_equal        |     on     |        on        |        
+RUN-1001 :      min_control_set      |     8      |        8         |        
+RUN-1001 :       min_ripple_len      |     12     |       auto       |   *    
+RUN-1001 :          seq_syn          |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------------------
+RUN-1002 : start command "insert_debugger ../../chip_debugger"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/td/license/Anlogic.lic
+RUN-8008 ERROR: License expired!
